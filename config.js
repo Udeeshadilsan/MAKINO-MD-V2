@@ -8,16 +8,16 @@ const chalk = require("chalk");
 //to disable function - false
 //
 global.available = false;
-global.autoReadGc = false;
-global.autoReadAll = false;
-global.antitags = false;
+global.autoReadGc = true;
+global.autoReadAll = true;
+global.antitags = true;
 
 
 //auto functioner
-global.autoTyping = false;                //make true to enable auto typing
+global.autoTyping = true;                //make true to enable auto typing
 global.autoRecord = true;                //make true to enable auto recording
 global.groupevent = true;                //This is the new variable for controlling group event handling.
-global.statusseen = false;                 //make true to view statuses 
+global.statusseen = true;                 //make true to view statuses 
 
 
 //
@@ -35,11 +35,11 @@ global.dbase = process.env.DBASE || "";//Mongodb here
 global.AuthorWhatsapp = "https://wa.me/2347080968564"; //Bot creator WhatsApp link,don't change or bot will not work.
 */
 global.Owner = [""];
-global.OwnerNumber = [""];
+global.OwnerNumber = ["94760049693"];
 global.ownertag = [""]; 
-global.OwnerName =  "Tᴀɪʀᴀ Mᴀᴋɪɴᴏ";
+global.OwnerName =  "𝙷𝙸𝚁𝚄𝚂𝙷𝙰_𝙱𝙱𝚈";
 global.BotName = "🐦Makino-md-v2";
-global.packname = "Tᴀɪʀᴀ Mᴀᴋɪɴᴏ";                             //Do not change.
+global.packname = "𝙳 𝙸 𝙽 𝚄  𝙾𝙵𝙲";                             //Do not change.
 global.author = "🐦Makino md ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ";                               //Do not change.
 global.BotSourceCode = "https://github.com/anonphoenix007/MAKINO-MD-V2"; //Do not change.
 global.SupportGroupLink = "https://chat.whatsapp.com/KEg0G3UUs1G39ikdyfF5Pm "; 
